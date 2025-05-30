@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import 'primereact/resources/themes/lara-light-purple/theme.css';
+
+@theme {
+  --spacing-main-layout: calc(100vh - 176px);
+  --color-black: rgb(10, 10, 13);
+  --color-black-1: rgb(20, 20, 25);
+  --color-black-2: rgb(30, 30, 38);
+  --color-black-3: rgb(40, 40, 50); 
+  --color-black-4: rgb(60, 60, 75); 
+  --color-black-5: rgb(80, 80, 100); 
+  --color-black-6: rgb(100, 100, 125); 
+
+  
+  --color-primary-50: rgb(249, 247, 255);
+  --color-primary-100: rgb(227, 216, 253);
+  --color-primary-200: rgb(205, 185, 251);
+  --color-primary-300: rgb(178, 154, 249);
+  --color-primary-400: rgb(161, 123, 248);
+  --color-primary-500: rgb(139, 92, 246);
+  --color-primary-600: rgb(118, 78, 209);
+  --color-primary-700: rgb(97, 64, 172)
+  --color-primary-800: rgb(76, 51, 135)
+  --color-primary-900: rgb(56, 37, 98)
+}
