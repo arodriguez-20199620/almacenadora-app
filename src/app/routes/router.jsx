@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import mainRoutes from "../../features/main/main.routes";
 import authRoutes from "../../features/auth/auth.routes";
 import userSettingsRoutes from "../../features/userSettings/userSettings.routes";
@@ -19,7 +19,7 @@ const AdminLayout = lazy(() =>
   import("../../features/admin/components/AdminLayout")
 );
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
